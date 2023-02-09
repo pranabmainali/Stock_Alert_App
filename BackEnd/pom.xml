@@ -8,10 +8,10 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.serverApp</groupId>
+	<artifactId>stockAlertApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>stockAlertApp</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>19</java.version>
@@ -19,27 +19,24 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>  
-			<groupId>org.springframework.boot</groupId>  
-			<artifactId>spring-boot-starter-web</artifactId>  
-			<version>2.2.2.RELEASE</version>  
-		</dependency>  
-		<dependencies>
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-actuator</artifactId>
-    </dependency>
-</dependencies>
 	</dependencies>
-	
 
 	<build>
 		<plugins>
