@@ -1,13 +1,13 @@
-package com.serverApp.stockAlertApp;
+package com.stockapp.stockapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StockAlertAppApplication {
+public class StockappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StockAlertAppApplication.class, args);
+		SpringApplication.run(StockappApplication.class, args);
 	}
 
 }

@@ -8,10 +8,10 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.serverApp</groupId>
-	<artifactId>stockAlertApp</artifactId>
+	<groupId>com.stockapp</groupId>
+	<artifactId>stockapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>stockAlertApp</name>
+	<name>stockapp</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>19</java.version>
