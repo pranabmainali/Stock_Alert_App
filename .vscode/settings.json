@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
         "Backend/stockapp"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }

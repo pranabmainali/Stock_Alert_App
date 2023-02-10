@@ -8,9 +8,11 @@ import com.backend.stockalertbackend.model.User;
 @RestController
 public class UserController {
 
+    private User user = new User("pmainali", "hello");
+
     @GetMapping("/getUser")
     public User getUser(long userid){
-        
+        return user;
     }
     
 }
